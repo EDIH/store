@@ -6,8 +6,8 @@ $this->title = 'My Yii Application';
 ?>
 <div class="site-index">
 
-    <div class="jumbotron">
-        <h1>Congratulations! I am started this awesome project at yii2</h1>
+    <div class="jumbotron ">
+        <h1>Congratulations! I am started this awesome project at yii2..</h1>
 
         <p class="lead">You have successfully created your Yii-powered application.</p>
 
