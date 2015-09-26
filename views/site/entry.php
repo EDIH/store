@@ -10,7 +10,7 @@ use yii\widgets\ActiveForm;
 ?>
 <?php $form = ActiveForm::begin(); ?>
 
-<?= $form->field($model, 'name') ?>
+<?= $form->field($model, 'name')->label('Enter your name') ?>
 
 <?= $form->field($model, 'email') ?>
 
