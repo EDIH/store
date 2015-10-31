@@ -92,6 +92,10 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+    public function actionAdmin()
+    {
+        return $this->render('admin');
+    }
 
     public function actionCatalog()
     {
@@ -107,7 +111,8 @@ class SiteController extends Controller
 
             // делаем что-то полезное с $model ...
 
-            return $this->render('entry-confirm', ['model' => $model]);
+            //return $this->render('entry-confirm', ['model' => $model]);
+            return $this->redirect('http://localhost/store/web/?r=site/admin',302);
         } else {
             // либо страница отображается первый раз, либо есть ошибка в данных
             return $this->render('entry', ['model' => $model]);
